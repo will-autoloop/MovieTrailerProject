@@ -166,6 +166,7 @@ show_tile_content = '''
 
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
+    # Updated the variables to reflect the movie class.
     content = ''
     for movie in movies:
         # Extract the youtube ID from the url
@@ -189,6 +190,7 @@ def create_movie_tiles_content(movies):
     return content
 
 # add a second method for TV Shows
+# updated the variable to reflect the Show class.
 def create_show_tiles_content(shows):
     # The HTML content for this section of the page
     content = ''
