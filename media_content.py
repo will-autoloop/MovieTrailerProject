@@ -29,4 +29,5 @@ old_house = media.Tv_Show("This Old House", "24 minutes",
 movies = [toy_story, avatar, gladiator]
 shows = [sons, old_house]
 
+# This method creates the page and populates the media data
 fresh_tomatoes.open_media_page(movies, shows)
